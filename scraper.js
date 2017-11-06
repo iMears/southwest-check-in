@@ -84,6 +84,9 @@ class Scraper {
 
       // Click 'Send' to send boarding pass email.
       await page.click('#form-mixin--submit-button');
+
+      // Print boarding pass confirmation status.
+      console.log(`Your boarding pass has been sent to ${email}`)
     }
 
     // await page.screenshot({ path: 'southwest-check-in.png', fullPage: true });
