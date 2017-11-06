@@ -9,6 +9,7 @@
   "author": "Maxwell Mears",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.19.1",
     "puppeteer": "^0.11.0"
   }
 }
