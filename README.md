@@ -9,7 +9,13 @@
 `node index.js`
 
 ### Screenshots
-![GitHub Logo](/southwest-check-in-fill-in.png)
-![GitHub Logo](/southwest-check-in-success.png)
-![GitHub Logo](/southwest-check-sent-text.png)
-![GitHub Logo](/southwest-check-sent-email.png)
+![GitHub Logo](/screenshots/fill-in-form.png)
+
+![GitHub Logo](/screenshots/checked-in.png)
+
+![GitHub Logo](/screenshots/send-boarding-pass-text.png)
+![GitHub Logo](/screenshots/boarding-pass-text-1.jpeg)
+![GitHub Logo](/screenshots/boarding-pass-text-2.jpeg)
+
+![GitHub Logo](/screenshots/send-boarding-pass-email.png)
+![GitHub Logo](/screenshots/boarding-pass-email.png)
