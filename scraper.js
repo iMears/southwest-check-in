@@ -88,8 +88,6 @@ class Scraper {
       console.log(`Your boarding pass has been sent to ${email}`)
     }
 
-    // await page.screenshot({ path: 'southwest-check-in.png', fullPage: true });
-
     await browser.close();
   }
 }
