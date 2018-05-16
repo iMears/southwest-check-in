@@ -8,7 +8,6 @@ const selectors = {
   textModalButtonSelector: '.boarding-pass-options--button-text',
   textInputFieldSelector: '#textBoardingPass',
   textSubmitButtonSelector: '#form-mixin--submit-button',
-  boardingPositionSelector: '.air-check-in-passenger-item--information-boarding-position span',
 };
 
 module.exports = selectors;

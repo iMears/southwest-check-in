@@ -25,7 +25,6 @@ class Scraper {
       textModalButtonSelector,
       textInputFieldSelector,
       textSubmitButtonSelector,
-      boardingPositionSelector,
     } = this.selectors;
 
     const browser = await puppeteer.launch();
@@ -57,7 +56,7 @@ class Scraper {
     console.log(`You\'re checked in!`);
 
     // Print boarding position information.
-    const boardingPosition = await page.$eval(boardingPositionSelector, el => el.textContent);
+    const boardingPosition = await page.evaluate(() => document.querySelector('.air-check-in-passenger-item--information-boarding-position span').textContent);
     console.log(boardingPosition);
 
     if (this.passenger.phone.length) {
